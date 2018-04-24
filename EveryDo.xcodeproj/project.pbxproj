@@ -16,7 +16,8 @@
 		7E7E40AF208FAB0700890F30 /* EveryDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40AE208FAB0700890F30 /* EveryDoTests.m */; };
 		7E7E40BA208FAB0700890F30 /* EveryDoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40B9208FAB0700890F30 /* EveryDoUITests.m */; };
 		7E7E40C9208FAB9B00890F30 /* ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40C8208FAB9B00890F30 /* ToDo.m */; };
-		7E7E40CC208FB0CB00890F30 /* myCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40CB208FB0CB00890F30 /* myCustomTableViewCell.m */; };
+		7E7E40CF208FB66700890F30 /* ToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40CE208FB66700890F30 /* ToDoTableViewCell.m */; };
+		7E7E40D2208FD01D00890F30 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40D1208FD01D00890F30 /* DetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +56,10 @@
 		7E7E40BB208FAB0700890F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7E40C7208FAB9B00890F30 /* ToDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDo.h; sourceTree = "<group>"; };
 		7E7E40C8208FAB9B00890F30 /* ToDo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDo.m; sourceTree = "<group>"; };
-		7E7E40CA208FB0CB00890F30 /* myCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myCustomTableViewCell.h; sourceTree = "<group>"; };
-		7E7E40CB208FB0CB00890F30 /* myCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myCustomTableViewCell.m; sourceTree = "<group>"; };
+		7E7E40CD208FB66700890F30 /* ToDoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewCell.h; sourceTree = "<group>"; };
+		7E7E40CE208FB66700890F30 /* ToDoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewCell.m; sourceTree = "<group>"; };
+		7E7E40D0208FD01D00890F30 /* DetailedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		7E7E40D1208FD01D00890F30 /* DetailedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +116,11 @@
 				7E7E4099208FAB0700890F30 /* ViewController.m */,
 				7E7E40C7208FAB9B00890F30 /* ToDo.h */,
 				7E7E40C8208FAB9B00890F30 /* ToDo.m */,
+				7E7E40CE208FB66700890F30 /* ToDoTableViewCell.m */,
+				7E7E40CD208FB66700890F30 /* ToDoTableViewCell.h */,
 				7E7E409B208FAB0700890F30 /* Main.storyboard */,
-				7E7E40CA208FB0CB00890F30 /* myCustomTableViewCell.h */,
-				7E7E40CB208FB0CB00890F30 /* myCustomTableViewCell.m */,
+				7E7E40D0208FD01D00890F30 /* DetailedViewController.h */,
+				7E7E40D1208FD01D00890F30 /* DetailedViewController.m */,
 				7E7E409E208FAB0700890F30 /* Assets.xcassets */,
 				7E7E40A0208FAB0700890F30 /* LaunchScreen.storyboard */,
 				7E7E40A3208FAB0700890F30 /* Info.plist */,
@@ -275,10 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7E40CF208FB66700890F30 /* ToDoTableViewCell.m in Sources */,
 				7E7E409A208FAB0700890F30 /* ViewController.m in Sources */,
-				7E7E40CC208FB0CB00890F30 /* myCustomTableViewCell.m in Sources */,
 				7E7E40A5208FAB0700890F30 /* main.m in Sources */,
 				7E7E4097208FAB0700890F30 /* AppDelegate.m in Sources */,
+				7E7E40D2208FD01D00890F30 /* DetailedViewController.m in Sources */,
 				7E7E40C9208FAB9B00890F30 /* ToDo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

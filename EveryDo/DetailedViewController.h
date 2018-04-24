@@ -1,5 +1,5 @@
 //
-//  myCustomTableViewCell.h
+//  DetailedViewController.h
 //  EveryDo
 //
 //  Created by Tyler Boudreau on 2018-04-24.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface myCustomTableViewCell : UITableViewCell
+@interface DetailedViewController : UIViewController
 
 @end

@@ -1,14 +1,15 @@
 //
-//  myCustomTableViewCell.m
+//  ToDoTableViewCell.m
 //  EveryDo
 //
 //  Created by Tyler Boudreau on 2018-04-24.
 //  Copyright © 2018 Tyler Boudreau. All rights reserved.
 //
 
-#import "myCustomTableViewCell.h"
+#import "ToDoTableViewCell.h"
 
-@implementation myCustomTableViewCell
+
+@implementation ToDoTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
