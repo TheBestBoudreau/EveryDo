@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ToDo.h"
+@protocol ToDoTableViewCellDelegate
+
+
+@end
 
 @interface ToDoTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *titleView;

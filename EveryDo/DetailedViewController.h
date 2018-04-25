@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ToDo.h"
 @interface DetailedViewController : UIViewController
+@property ToDo *doStuff;
 
 @end

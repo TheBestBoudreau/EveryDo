@@ -10,8 +10,7 @@
 
 @implementation ToDo
 
--(instancetype)initWithStuff:(NSString *)title :(NSString *)toDoDescription :(NSInteger) priority :(BOOL)isComplete
-{
+-(instancetype)initWithStuff:(NSString *)title :(NSString *)toDoDescription :(NSInteger) priority :(BOOL)isComplete{
     self = [super init];
     if (self) {
         _title=title;

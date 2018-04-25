@@ -18,6 +18,7 @@
 		7E7E40C9208FAB9B00890F30 /* ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40C8208FAB9B00890F30 /* ToDo.m */; };
 		7E7E40CF208FB66700890F30 /* ToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40CE208FB66700890F30 /* ToDoTableViewCell.m */; };
 		7E7E40D2208FD01D00890F30 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40D1208FD01D00890F30 /* DetailedViewController.m */; };
+		7E7E40D5208FD6D900890F30 /* AddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E40D4208FD6D900890F30 /* AddNewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		7E7E40CE208FB66700890F30 /* ToDoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewCell.m; sourceTree = "<group>"; };
 		7E7E40D0208FD01D00890F30 /* DetailedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
 		7E7E40D1208FD01D00890F30 /* DetailedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		7E7E40D3208FD6D800890F30 /* AddNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddNewViewController.h; sourceTree = "<group>"; };
+		7E7E40D4208FD6D900890F30 /* AddNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddNewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,9 +119,11 @@
 				7E7E4099208FAB0700890F30 /* ViewController.m */,
 				7E7E40C7208FAB9B00890F30 /* ToDo.h */,
 				7E7E40C8208FAB9B00890F30 /* ToDo.m */,
-				7E7E40CE208FB66700890F30 /* ToDoTableViewCell.m */,
 				7E7E40CD208FB66700890F30 /* ToDoTableViewCell.h */,
+				7E7E40CE208FB66700890F30 /* ToDoTableViewCell.m */,
 				7E7E409B208FAB0700890F30 /* Main.storyboard */,
+				7E7E40D3208FD6D800890F30 /* AddNewViewController.h */,
+				7E7E40D4208FD6D900890F30 /* AddNewViewController.m */,
 				7E7E40D0208FD01D00890F30 /* DetailedViewController.h */,
 				7E7E40D1208FD01D00890F30 /* DetailedViewController.m */,
 				7E7E409E208FAB0700890F30 /* Assets.xcassets */,
@@ -284,6 +289,7 @@
 				7E7E409A208FAB0700890F30 /* ViewController.m in Sources */,
 				7E7E40A5208FAB0700890F30 /* main.m in Sources */,
 				7E7E4097208FAB0700890F30 /* AppDelegate.m in Sources */,
+				7E7E40D5208FD6D900890F30 /* AddNewViewController.m in Sources */,
 				7E7E40D2208FD01D00890F30 /* DetailedViewController.m in Sources */,
 				7E7E40C9208FAB9B00890F30 /* ToDo.m in Sources */,
 			);
